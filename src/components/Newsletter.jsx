@@ -30,7 +30,7 @@ const Newsletter = ({ onValidated, status, message }) => {
         <>
         {/* <NavBar /> */}
         <Col lg={12}>
-            <div className="newsletter-bx wow slideInUp">
+            <div className="newsletter-bx mt-5 wow slideInUp">
                 <Row className='align-items-center'>
                     <Col lg={6} md={6} xl={5}>
                         <h3>Subscribe to our Newsletter<br /> & Never miss latest updates</h3>
