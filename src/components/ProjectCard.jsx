@@ -6,7 +6,7 @@ const ProjectCard = ({ title, description, imgUrl, link, name }) => {
     <>
       <Col xs={12} md={6} xl={4}>
         <div className="proj-imgbx">
-          <img src={imgUrl} alt="" />
+          <img loading="lazy" src={imgUrl} alt="" />
           <div className="proj-txtx">
             <h4>
               <a href={link}>{title}</a>

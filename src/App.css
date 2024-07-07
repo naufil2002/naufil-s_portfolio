@@ -460,7 +460,7 @@ header {
 		right: 0px;
 		flex-direction: column;
 		gap: 20px;
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.139);
     z-index: 1;
 		display: none;
 		width: 100%;
@@ -535,7 +535,7 @@ header {
 	}
 /* Initial state for .navvv */
 .navvv {
-  /* margin: -20px; */
+  margin: -10px;
   opacity: 0;
   transform: translateY(-20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
