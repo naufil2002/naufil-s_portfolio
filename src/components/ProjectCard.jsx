@@ -14,7 +14,7 @@ const ProjectCard = ({ title, description, imgUrl, link, name }) => {
             {/* <span>{description}</span> */}
           </div>
         </div>
-        <h3 className="text-center submitbutton">
+        <h3 className="text-center submitbutton text-black">
           <a className="text-decoration-none" href={link}>
             <button>{name}</button>
             <h6 className="mt-0 mb-0 text-black">

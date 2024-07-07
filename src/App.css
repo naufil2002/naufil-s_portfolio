@@ -264,17 +264,9 @@ nav {
   align-items: center;
 }
 
-
-
 .navbars {
   padding-left: 50px;
 }
-/* .sticky {
-  background-color: #1b1a2ea9 !important;
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
-} */
 
 .hamburger {
 	font-size: 35px;
@@ -534,19 +526,37 @@ header {
 		justify-content: space-evenly;
 		align-items: center;
 		padding-bottom: 20px;
+    padding-top: 20px;
 	}
 
 	.navigation-text a {
 		/* color: #000000; */
 		font-size: 22px;
 	}
-  .navvv {
-    /* padding-bottom: 20px; */
-    margin: -20px;
-    text-decoration: none;
-    margin-right: 30px;
+/* Initial state for .navvv */
+.navvv {
+  /* margin: -20px; */
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  text-decoration: none;
+  margin-right: 30px;
+  animation: fadeInDown 0.5s forwards;
+  animation-delay: 0.3s;
+}
 
+/* Keyframes for the animation */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
   }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
 
 	.hamburger {
 		display: block;
@@ -1218,3 +1228,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+

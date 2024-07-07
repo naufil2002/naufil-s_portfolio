@@ -74,11 +74,11 @@ const Contact = () => {
       <section className="contact" id="connect">
         <Container>
           <Row className="align-items-center">
-            <Col md={6}>
+            <Col className="text-center animate__animated animate__fadeInDown" md={6}>
               <img src={contactImg} alt="Contact Us" />
             </Col>
-            <Col md={6}>
-              <h2>Get In  <span className="purple">Touch</span></h2>
+            <Col md={6} className="animate__animated animate__fadeInUp">
+              <h2 className="text-center mt-5">Get In  <span className="purple">Touch</span></h2>
               <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
                 <input type="text" name="from_name" value={formData.from_name} onChange={handleChange} />

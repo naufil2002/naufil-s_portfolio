@@ -57,13 +57,14 @@ const Projects = () => {
         <Row>
           <Col size={12}>
             <TrackVisibility>
-              <div className="mt-5">
+              <div className="mt-5 animate__animated animate__fadeInDown">
                 <h2>My Recent <span className="purple">Projects</span></h2>
                 <p>I've created projects that blend innovative design with seamless user experiences.</p>
+                </div>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Tab.Content id="slideInUp">
                     <Tab.Pane eventKey="first">
-                      <Row>
+                      <Row className=" animate__animated animate__fadeInUp">
                         {
                           projects.map((project, index) => {
                             return (
@@ -78,7 +79,7 @@ const Projects = () => {
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-              </div>
+              
             </TrackVisibility>
           </Col>
         </Row>

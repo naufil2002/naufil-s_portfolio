@@ -37,6 +37,7 @@ const Banner = () => {
                                 "Web Developer.",
                                 "Front End Developer.",
                                 "Exploring MERN Stack / Full Stack Development.",
+                                "Freelancer.",
                               ],
                               autoStart: true,
                               loop: true,

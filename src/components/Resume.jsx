@@ -17,8 +17,8 @@ function ResumeNew() {
   return (
     <div>
       <NavBar />
-      <Container fluid className="resume-section">
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+      <Container fluid className="resume-section ">
+        <Row className="animate__animated animate__fadeInDown" style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -30,7 +30,7 @@ function ResumeNew() {
           </Button>
         </Row>
 
-       <div className="text-center mt-5 mb-5">
+       <div className="text-center mt-5 mb-5 animate__animated animate__fadeInUp">
         <img className="resume" src={Resume1} alt="Resume" /><br />
         <img className="resume" src={Resume2} alt="Resume" />
         </div>

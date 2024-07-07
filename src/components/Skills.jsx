@@ -12,7 +12,7 @@ function Skills() {
   return (
     <>
     <NavBar />
-    <Container fluid className="about-section">
+    <Container fluid className="about-section animate__animated animate__fadeInUp">
       {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center" }}>
