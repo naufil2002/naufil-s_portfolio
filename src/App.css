@@ -541,7 +541,7 @@ header {
   transition: opacity 0.5s ease, transform 0.5s ease;
   text-decoration: none;
   margin-right: 30px;
-  animation: fadeInDown 0.5s forwards;
+  animation: fadeInDown 0.3s forwards;
   animation-delay: 0.3s;
 }
 
