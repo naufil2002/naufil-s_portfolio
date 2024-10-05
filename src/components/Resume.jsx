@@ -5,7 +5,6 @@ import pdf from "../assets/Naufil.Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import NavBar from "./NavBar"
 import Resume from "../assets/img/resume.PNG"
-// import Resume2 from "../assets/img/resume2.PNG"
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -32,7 +31,6 @@ function ResumeNew() {
 
        <div className="text-center mt-5 mb-5 animate__animated animate__fadeInUp">
         <img className="resume" src={Resume} alt="Resume" /><br />
-        {/* <img className="resume" src={Resume2} alt="Resume" /> */}
         </div>
 
         <Row style={{ justifyContent: "center", position: "relative", marginBottom: "5rem" }}>
