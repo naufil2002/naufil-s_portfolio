@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../assets/Naufil.Resume.pdf";
+import pdf from "../assets/Naufil.Resume.PDF";
 import { AiOutlineDownload } from "react-icons/ai";
 import NavBar from "./NavBar"
 import Resume from "../assets/img/resume.PNG"
